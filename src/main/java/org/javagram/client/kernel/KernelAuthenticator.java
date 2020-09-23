@@ -38,8 +38,8 @@ public class KernelAuthenticator {
         this.config = config;
     }
 
-    public LoginStatus start() {
-        return this.config.isBot() ? this.loginBot() : this.login();
+    public LoginStatus start(boolean sendCode) {
+        return this.config.isBot() ? this.loginBot() : this.login(sendCode);
     }
 
     public void stop(){
@@ -134,7 +134,7 @@ public class KernelAuthenticator {
 
     //region Private helpers
 
-    private LoginStatus login() {
+    private LoginStatus login(boolean sendCode) {
         LoginStatus result;
         try {
             if (this.config.getApiState().isAuthenticated()) {
@@ -145,7 +145,7 @@ public class KernelAuthenticator {
                 TLSentCode sentCode = null;
                 try {
                     TLConfig tlConfig = null;
-                    boolean ok = false;
+                    boolean ok = !sendCode;
                     while (!ok) {
                         try {
                             tlConfig = this.config.getApi().doRpcCallNonAuth(new TLRequestHelpGetConfig());

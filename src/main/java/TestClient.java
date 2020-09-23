@@ -520,7 +520,7 @@ public class TestClient {
                 @Override
                 public void run() {
                     try {
-                        client.init();
+                        client.init(false);
                         client.start();
                     } catch (NoSuchMethodException e) {
                         e.printStackTrace();
