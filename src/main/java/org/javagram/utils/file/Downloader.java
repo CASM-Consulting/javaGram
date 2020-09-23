@@ -75,6 +75,7 @@ public class Downloader {
         }
     }
 
+
     /**
      * Gets api.
      *
@@ -91,6 +92,13 @@ public class Downloader {
             }
         }
         return null;
+    }
+
+    public void close() {
+        for(DownloadFileThread thread : threads) {
+            thread.interrupt();
+        }
+        tasks.clear();
     }
 
     /**

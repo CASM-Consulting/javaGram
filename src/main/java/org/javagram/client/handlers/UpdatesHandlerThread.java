@@ -44,6 +44,7 @@ public class UpdatesHandlerThread extends Thread {
                             this.mainHandler.updatesQueue.wait();
                         } catch (InterruptedException e) {
                             BotLogger.error(LOGTAG, e);
+                            return;
                         }
                     }
                 } else {
