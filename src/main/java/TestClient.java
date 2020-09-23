@@ -29,10 +29,10 @@ public class TestClient {
 
     public static void main(String[] args) {
         MyTLAppConfiguration.Builder builder = new MyTLAppConfiguration.Builder();
-        builder.setApiId(1303658)
-            .setApiHash("2293e64ddb1f557a7c50d8deb0931d11")
-                .setPhoneNumber("+447795804837")
-                .setAuthFilename("/Users/jp242/Desktop/447795804837.telegram_auth")
+        builder.setApiId(0)
+            .setApiHash("")
+                .setPhoneNumber("+")
+                .setAuthFilename("")
                 .setDatabaseManager(new AbstractDatabaseManager() {
                     @Override
                     public boolean addUser(TLAbsUser user) {
