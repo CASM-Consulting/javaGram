@@ -88,6 +88,13 @@ public class Uploader {
         return null;
     }
 
+    public void close() {
+        for (UploadFileThread thread : threads) {
+            thread.interrupt();
+        }
+        tasks.clear();
+    }
+
     /**
      * Cancel task.
      *

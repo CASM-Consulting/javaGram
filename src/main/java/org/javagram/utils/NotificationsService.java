@@ -21,6 +21,12 @@ public class NotificationsService {
         this.thread.start();
     }
 
+    public void close(){
+        if(instance != null) {
+            instance.thread.interrupt();
+        }
+    }
+
     public static synchronized NotificationsService getInstance() {
         if (instance == null) {
             instance = new NotificationsService();
@@ -108,6 +114,7 @@ public class NotificationsService {
                         }
                     } catch (InterruptedException e) {
                         BotLogger.error(LOGTAG, e);
+                        return;
                     }
                 } else {
                     NotificationsService.this.handleNotification(currentNotification);

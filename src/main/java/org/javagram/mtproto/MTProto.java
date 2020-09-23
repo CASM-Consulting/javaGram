@@ -199,6 +199,7 @@ public class MTProto {
     private void closeConnections() {
         synchronized(this.contexts) {
             this.contexts.stream().forEachOrdered(context -> {
+                context.close();
                 context.suspendConnection(true);
                 this.scheduler.onConnectionDies(context.getContextId());
             });

@@ -2,6 +2,7 @@ package org.javagram.client.kernel;
 
 import org.javagram.api.TLApiContext;
 import org.javagram.api.TLConfig;
+import org.javagram.utils.*;
 import org.javagram.utils.file.Downloader;
 import org.javagram.utils.file.Uploader;
 import org.javagram.api.functions.TLRequestInitConnection;
@@ -41,13 +42,6 @@ import org.javagram.api.upload.functions.TLRequestUploadGetCdnFile;
 import org.javagram.api.upload.functions.TLRequestUploadGetFile;
 import org.javagram.api.upload.functions.TLRequestUploadSaveBigFilePart;
 import org.javagram.api.upload.functions.TLRequestUploadSaveFilePart;
-import org.javagram.utils.DefaultApiCallback;
-import org.javagram.utils.GzipRequest;
-import org.javagram.utils.Logger;
-import org.javagram.utils.RpcCallback;
-import org.javagram.utils.RpcCallbackEx;
-import org.javagram.utils.RpcException;
-import org.javagram.utils.TimeoutException;
 
 public class TelegramApi {
 
@@ -237,7 +231,27 @@ public class TelegramApi {
                 this.timeoutThread.interrupt();
                 this.timeoutThread = null;
             }
+            if(this.downloader != null) {
+                this.downloader.close();
+            }
+            if(this.uploader != null) {
+                this.uploader.close();
+            }
+            if(senderThread != null) {
+                senderThread.interrupt();
+            }
+
+            NotificationsService.getInstance().close();
+
+            // shutdown the connections
             this.mainProto.close();
+            for(MTProto proto : dcProtos.values()) {
+                proto.close();
+            }
+
+            if(this.dcThread != null) {
+                this.dcThread.interrupt();
+            }
         }
     }
 
