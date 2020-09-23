@@ -80,7 +80,7 @@ public class TelegramClient {
         });
     }
 
-    public LoginStatus init() throws NoSuchMethodException, InstantiationException, IllegalAccessException, InvocationTargetException {
+    public LoginStatus init(boolean sendCode) throws NoSuchMethodException, InstantiationException, IllegalAccessException, InvocationTargetException {
         BotLogger.info(this.logtag, "Initializing");
 
         // Initialize handlers
@@ -99,7 +99,7 @@ public class TelegramClient {
         this._createKernelAuth();
         
         // Perform login if necessary
-        final LoginStatus loginResult = this._startKernelAuth();
+        final LoginStatus loginResult = this._startKernelAuth(sendCode);
         
         // Create rest of handlers
         this._createKernelHandler();
@@ -170,9 +170,9 @@ public class TelegramClient {
         BotLogger.debug(this.logtag, "KernelAuthenticator created");
     }
 
-    private LoginStatus _startKernelAuth() {
+    private LoginStatus _startKernelAuth(boolean sendCode) {
         BotLogger.debug(this.logtag, "starting KernelAuthenticator");
-        final LoginStatus status = this.config.getKernelAuthenticator().start();
+        final LoginStatus status = this.config.getKernelAuthenticator().start(sendCode);
         BotLogger.debug(this.logtag, "KernelAuthenticator started");
         return status;
     }
