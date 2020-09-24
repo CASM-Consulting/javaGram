@@ -541,6 +541,7 @@ public class TestClient {
             client.getConfig().getApi().close();
             client.getConfig().getExecutor().shutdownNow();
             client.getConfig().getKernelAuthenticator().stop();
+            client.stop();
             service.shutdownNow();
 
         } catch (InterruptedException e) {
