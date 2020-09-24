@@ -4,6 +4,14 @@
     <groupId>org.javagram</groupId>
     <artifactId>javagram</artifactId>
     <version>1.0.2</version>
+
+    <parent>
+        <groupId>uk.ac.susx.tag</groupId>
+        <artifactId>tag-dist</artifactId>
+        <version>1.0.8</version>
+        <relativePath>../tag-dist/pom.xml</relativePath>
+    </parent>
+
     <packaging>jar</packaging>
     <dependencies>
         <dependency>
