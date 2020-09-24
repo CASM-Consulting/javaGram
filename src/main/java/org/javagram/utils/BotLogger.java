@@ -22,7 +22,7 @@ public final class BotLogger {
 
     private ConfigurationBuilder<BuiltConfiguration> configurationBuilder = null;
     private Logger _logger = null;
-    private final static Level LEVEL = Level.ALL;
+    private final static Level LEVEL = Level.ERROR;
 
     static {
         //System.setProperty("log4j2.contextSelector", "org.apache.logging.log4j.core.async.AsyncLoggerContextSelector");
