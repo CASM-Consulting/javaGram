@@ -158,7 +158,7 @@ public class KernelCommunicationService implements IKernelComm {
         } catch (InterruptedException e) {
             BotLogger.warning(LOGTAG,"Shutting down: Authentication handler interrupted");
         } catch (Exception e) {
-            BotLogger.severe(LOGTAG, "Bot threw an unexpected exception at KernelComm-doRpcCallSyncNoAuth");
+            BotLogger.warning(LOGTAG,"Shutting down: Authentication handler interrupted whilst making a call.");
         }
 
         handleAffectedMessagesAndHistory(answer);
