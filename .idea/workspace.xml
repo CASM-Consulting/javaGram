@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d81684d-cf52-49cb-930a-ff0c7e54df4c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/javagram/client/handlers/DefaultDifferencesHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/javagram/client/handlers/DefaultDifferencesHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/javagram/client/handlers/UpdateHandlerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/javagram/client/handlers/UpdateHandlerThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/javagram/client/handlers/UpdatesHandlerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/javagram/client/handlers/UpdatesHandlerThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/javagram/client/kernel/KernelCommunicationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/javagram/client/kernel/KernelCommunicationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/javagram/client/kernel/TelegramApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/javagram/client/kernel/TelegramApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/javagram/mtproto/MTProto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/javagram/mtproto/MTProto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/javagram/mtproto/secure/aes/DefaultAESImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/javagram/mtproto/secure/aes/DefaultAESImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/javagram/pyronet/PyroSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/javagram/pyronet/PyroSelector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/javagram/utils/NotificationsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/javagram/utils/NotificationsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/javagram/utils/TimerExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/javagram/utils/TimerExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/javagram/utils/file/Downloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/javagram/utils/file/Downloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/javagram/utils/file/Uploader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/javagram/utils/file/Uploader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javagram/utils/BotLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/javagram/utils/BotLogger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/javagram/mtproto/pq/Authorizer.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="245" column="21" selection-start-line="245" selection-start-column="21" selection-end-line="245" selection-end-column="21" />
+            <state relative-caret-position="15">
+              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -108,7 +94,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/javagram/utils/file/Uploader.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="87">
@@ -147,7 +133,6 @@
         <option value="$PROJECT_DIR$/src/main/java/org/javagram/client/kernel/KernelAuthenticator.java" />
         <option value="$PROJECT_DIR$/src/main/java/TestClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/javagram/utils/BotLogger.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/org/javagram/client/handlers/DefaultDifferencesHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/javagram/client/handlers/UpdateHandlerThread.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/javagram/client/handlers/UpdatesHandlerThread.java" />
@@ -160,6 +145,7 @@
         <option value="$PROJECT_DIR$/src/main/java/org/javagram/utils/TimerExecutor.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/javagram/utils/file/Downloader.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/javagram/utils/file/Uploader.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -284,7 +270,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1601031556438" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1601031690842" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build.tools" />
   </component>
   <component name="RunDashboard">
@@ -330,7 +316,7 @@
     <frame x="0" y="23" width="1440" height="821" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29613733" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29613733" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -338,7 +324,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.55418384" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.55418384" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.74757284" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4854369" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -641,13 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-175">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TestClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
@@ -767,6 +746,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
           <caret line="532" column="33" selection-start-line="532" selection-start-column="33" selection-end-line="532" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
         </state>
       </provider>
     </entry>
