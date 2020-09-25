@@ -1,5 +1,7 @@
 package org.javagram.pyronet;
 
+import org.javagram.utils.BotLogger;
+
 import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.net.SocketTimeoutException;
@@ -157,7 +159,9 @@ public class PyroSelector {
         try {
             this.tasks.put(task);
         } catch (InterruptedException e) {
-            throw new RuntimeException(e);
+            BotLogger.warning("Selector","Shutting down: Selector service interrupted");
+            return;
+//            throw new RuntimeException(e);
         }
         this.wakeup();
     }

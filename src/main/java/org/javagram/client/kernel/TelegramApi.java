@@ -355,7 +355,7 @@ public class TelegramApi {
         try {
             resultObject = completableFuture.get(timeout, TimeUnit.MILLISECONDS);
         } catch (InterruptedException e) {
-            Logger.w(logtag, method.toString() + " : " + e.getMessage());
+            BotLogger.warning(logtag,"Shutting down: Telegram api service interrupted");
         } catch (java.util.concurrent.TimeoutException e) {
             Logger.w(logtag, method.toString() + " : " + e.getMessage());
             throw e;
@@ -943,7 +943,7 @@ public class TelegramApi {
                         try {
                             TelegramApi.this.callbacks.wait();
                         } catch (InterruptedException e) {
-                            Logger.e(TelegramApi.this.logtag, e);
+                            BotLogger.warning(logtag,"Shutting down: Telegram api connection sender service interrupted");
                             return;
                         }
                         continue;
@@ -1149,7 +1149,7 @@ public class TelegramApi {
                                 Thread.sleep(1000);
                                 continue;
                             } catch (InterruptedException e1) {
-                                Logger.e(TelegramApi.this.logtag, e1);
+                                BotLogger.warning(logtag,"Shutting down: Telegram api connection service interrupted");
                                 return;
                             }
                         }
@@ -1209,7 +1209,7 @@ public class TelegramApi {
                                 Thread.sleep(1000);
                                 continue;
                             } catch (InterruptedException e1) {
-                                Logger.e(TelegramApi.this.logtag, e1);
+                                BotLogger.warning(logtag,"Shutting down: Telegram api connection service interrupted");
                                 return;
                             }
                         }
@@ -1261,6 +1261,7 @@ public class TelegramApi {
                         try {
                             TelegramApi.this.timeoutTimes.wait();
                         } catch (InterruptedException e) {
+                            return;
                             // e.printStackTrace();
                         }
                         continue;

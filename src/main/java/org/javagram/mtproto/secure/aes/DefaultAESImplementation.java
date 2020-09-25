@@ -48,7 +48,8 @@ public class DefaultAESImplementation implements AESImplementation {
                 try {
                     Thread.sleep(10);
                 } catch (InterruptedException e) {
-                    e.printStackTrace();
+                    return;
+//                    e.printStackTrace();
                 }
             }
         }

@@ -157,7 +157,7 @@ public class TimerExecutor {
         try {
             executorService.awaitTermination(1, TimeUnit.DAYS);
         } catch (InterruptedException ex) {
-            BotLogger.severe(LOGTAG, ex);
+            BotLogger.warning(LOGTAG,"Shutting down: Timer interrupted");
         } catch (Exception e) {
             BotLogger.severe(LOGTAG, "Bot threw an unexpected exception at TimerExecutor", e);
         }

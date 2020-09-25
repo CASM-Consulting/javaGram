@@ -70,7 +70,7 @@ public class DefaultDifferencesHandler {
                             }
                         }
                     } catch (InterruptedException e) {
-                        BotLogger.error(LOGTAG, e);
+                        BotLogger.warning(LOGTAG,"Shutting down: Differences handler interrupted");
                     }
                 } while (absDifference instanceof TLDifferenceSlice);
                 BotLogger.info(LOGTAG, "Getting differences finished");
@@ -123,7 +123,7 @@ public class DefaultDifferencesHandler {
                         }
                     }
                 } catch (InterruptedException e) {
-                    BotLogger.error(LOGTAG, e);
+                    BotLogger.warning(LOGTAG,"Shutting down: Differences handler interrupted");
                 }
             } while ((absDifference instanceof TLUpdatesChannelDifferenceTooLong));
             BotLogger.info(LOGTAG, "Getting differences finished");

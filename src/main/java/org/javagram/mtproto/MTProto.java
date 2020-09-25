@@ -15,6 +15,7 @@ import org.javagram.mtproto.transport.TcpContext;
 import org.javagram.mtproto.transport.TcpContextCallback;
 import org.javagram.mtproto.transport.TransportRate;
 import org.javagram.mtproto.util.BytesCache;
+import org.javagram.utils.BotLogger;
 import org.javagram.utils.StreamingUtils;
 import org.javagram.api._primitives.TLMethod;
 import org.javagram.api._primitives.TLObject;
@@ -686,7 +687,7 @@ public class MTProto {
                                 return;
                             }
                         } catch (InterruptedException e) {
-                            Logger.e(MTProto.this.logtag, e);
+                            BotLogger.warning(logtag,"Shutting down: MTProto scheduler interrupted");
                             return;
                         }
                         internalSchedule();

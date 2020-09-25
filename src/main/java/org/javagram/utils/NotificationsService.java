@@ -113,7 +113,7 @@ public class NotificationsService {
                             NotificationsService.this.notificationsQueue.wait();
                         }
                     } catch (InterruptedException e) {
-                        BotLogger.error(LOGTAG, e);
+                        BotLogger.warning(LOGTAG,"Shutting down: Notifications service interrupted");
                         return;
                     }
                 } else {

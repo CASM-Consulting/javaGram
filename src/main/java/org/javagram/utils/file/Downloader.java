@@ -145,7 +145,7 @@ public class Downloader {
                 try {
                     this.threadLocker.wait(DEFAULT_DELAY);
                 } catch (InterruptedException e) {
-                    Logger.e(this.TAG, e);
+                    Logger.w(TAG, "Shutting down: Downloader service interrupted");
                     return;
                 }
             }
@@ -462,7 +462,7 @@ public class Downloader {
                             Downloader.this.threadLocker.wait();
                             continue;
                         } catch (InterruptedException e) {
-                            Logger.e(Downloader.this.TAG, e);
+                            Logger.w(TAG, "Shutting down: Downloader service interrupted");
                             return;
                         }
                     }

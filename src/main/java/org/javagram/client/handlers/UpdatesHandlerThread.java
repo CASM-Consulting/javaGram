@@ -43,7 +43,7 @@ public class UpdatesHandlerThread extends Thread {
                         try {
                             this.mainHandler.updatesQueue.wait();
                         } catch (InterruptedException e) {
-                            BotLogger.error(LOGTAG, e);
+                            BotLogger.warning(LOGTAG,"Shutting: Updates handler interrupted");
                             return;
                         }
                     }
