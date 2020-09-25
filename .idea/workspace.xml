@@ -2,34 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d81684d-cf52-49cb-930a-ff0c7e54df4c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/javagram/client/kernel/KernelCommunicationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/javagram/client/kernel/KernelCommunicationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TestClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javagram/client/handlers/DefaultDifferencesHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/javagram/client/handlers/DefaultDifferencesHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javagram/client/handlers/UpdateHandlerThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/javagram/client/handlers/UpdateHandlerThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javagram/client/handlers/UpdatesHandlerThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/javagram/client/handlers/UpdatesHandlerThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javagram/client/kernel/KernelCommunicationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/javagram/client/kernel/KernelCommunicationService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javagram/client/kernel/TelegramApi$ConnectionThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/javagram/client/kernel/TelegramApi$ConnectionThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javagram/client/kernel/TelegramApi$RpcCallbackWrapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/javagram/client/kernel/TelegramApi$RpcCallbackWrapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javagram/client/kernel/TelegramApi$SenderThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/javagram/client/kernel/TelegramApi$SenderThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javagram/client/kernel/TelegramApi$TimeoutThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/javagram/client/kernel/TelegramApi$TimeoutThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javagram/client/kernel/TelegramApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/javagram/client/kernel/TelegramApi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javagram/mtproto/MTProto$ConnectionFixerThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/javagram/mtproto/MTProto$ConnectionFixerThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javagram/mtproto/MTProto$EncryptedMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/javagram/mtproto/MTProto$EncryptedMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javagram/mtproto/MTProto$ResponseProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/javagram/mtproto/MTProto$ResponseProcessor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javagram/mtproto/MTProto$SchedulerThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/javagram/mtproto/MTProto$SchedulerThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javagram/mtproto/MTProto$TcpListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/javagram/mtproto/MTProto$TcpListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javagram/mtproto/MTProto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/javagram/mtproto/MTProto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javagram/mtproto/secure/aes/DefaultAESImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/javagram/mtproto/secure/aes/DefaultAESImplementation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javagram/pyronet/PyroSelector$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/javagram/pyronet/PyroSelector$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javagram/pyronet/PyroSelector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/javagram/pyronet/PyroSelector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javagram/utils/NotificationsService$NotificationsThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/javagram/utils/NotificationsService$NotificationsThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javagram/utils/TimerExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/javagram/utils/TimerExecutor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javagram/utils/file/Downloader$DownloadFileThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/javagram/utils/file/Downloader$DownloadFileThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javagram/utils/file/Downloader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/javagram/utils/file/Downloader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javagram/utils/file/Uploader$UploadFileThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/javagram/utils/file/Uploader$UploadFileThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javagram/utils/file/Uploader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/javagram/utils/file/Uploader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/javagram/client/kernel/TelegramApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/javagram/client/kernel/TelegramApi.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,8 +17,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/javagram/TelegramClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="174" selection-start-line="174" selection-end-line="174" />
+            <state relative-caret-position="91">
+              <caret line="114" selection-start-line="114" selection-end-line="114" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/TestClient.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+              <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1735#1736#0" expanded="true" />
@@ -78,7 +52,37 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/javagram/utils/BotLogger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="91">
+              <caret line="120" selection-start-line="120" selection-end-line="120" />
+              <folding>
+                <element signature="e#4247#4248#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/javagram/client/kernel/TelegramApi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="91">
+              <caret line="356" selection-start-line="356" selection-end-line="356" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/util/concurrent/TimeoutException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/javagram/client/kernel/KernelCommunicationService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="157">
@@ -110,38 +114,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
               <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/javagram/utils/NotificationsService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="115" column="78" selection-start-line="115" selection-start-column="78" selection-end-line="115" selection-end-column="78" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/javagram/utils/TimerExecutor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="159" column="58" selection-start-line="159" selection-start-column="58" selection-end-line="159" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/javagram/utils/file/Downloader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="465" selection-start-line="465" selection-end-line="465" />
             </state>
           </provider>
         </entry>
@@ -189,15 +166,15 @@
         <option value="$PROJECT_DIR$/src/main/java/org/javagram/client/handlers/UpdatesHandlerThread.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/javagram/mtproto/MTProto.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/javagram/pyronet/PyroSelector.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/javagram/client/kernel/TelegramApi.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/javagram/mtproto/secure/aes/DefaultAESImplementation.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/javagram/utils/NotificationsService.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/javagram/utils/TimerExecutor.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/javagram/utils/file/Downloader.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/javagram/utils/file/Uploader.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/TestClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/javagram/client/kernel/KernelCommunicationService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/javagram/client/kernel/TelegramApi.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TestClient.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -322,7 +299,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1601032740646" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1601033823198" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build.tools" />
   </component>
   <component name="RunDashboard">
@@ -368,7 +345,7 @@
     <frame x="0" y="23" width="1440" height="821" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23390558" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23390558" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -377,8 +354,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.5445816" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2894376" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.48422498" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.66529495" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.53635114" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -427,12 +404,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/javagram/TelegramClient.java</url>
-          <line>116</line>
-          <properties />
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/TestClient.java</url>
           <line>540</line>
@@ -496,13 +467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6876">
           <caret line="536" column="29" selection-start-line="536" selection-start-column="29" selection-end-line="536" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/util/concurrent/TimeoutException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
         </state>
       </provider>
     </entry>
@@ -641,13 +605,6 @@
         <state relative-caret-position="-14" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/javagram/utils/BotLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/javagram/client/handlers/DefaultDifferencesHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -680,13 +637,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
           <caret line="818" column="33" selection-start-line="818" selection-start-column="33" selection-end-line="818" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/javagram/client/kernel/TelegramApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="1262" column="33" selection-start-line="1262" selection-start-column="33" selection-end-line="1262" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -739,23 +689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/javagram/TelegramClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="174" selection-start-line="174" selection-end-line="174" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/javagram/client/kernel/KernelAuthenticator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
@@ -775,10 +708,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/javagram/client/kernel/KernelCommunicationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="160" column="109" selection-start-line="160" selection-start-column="109" selection-end-line="160" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/javagram/client/kernel/TelegramApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="356" selection-start-line="356" selection-end-line="356" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/util/concurrent/TimeoutException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/javagram/utils/BotLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="120" selection-start-line="120" selection-end-line="120" />
+          <folding>
+            <element signature="e#4247#4248#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/javagram/TelegramClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="114" selection-start-line="114" selection-end-line="114" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TestClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1735#1736#0" expanded="true" />
@@ -799,10 +773,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/javagram/client/kernel/KernelCommunicationService.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="160" column="109" selection-start-line="160" selection-start-column="109" selection-end-line="160" selection-end-column="109" />
+        <state relative-caret-position="15">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
         </state>
       </provider>
     </entry>

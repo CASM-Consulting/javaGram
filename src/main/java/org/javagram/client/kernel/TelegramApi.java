@@ -334,7 +334,8 @@ public class TelegramApi {
 
     private <T extends TLObject> T doRpcCall(TLMethod<T> method, int timeout, int destDc, boolean authRequired) throws RpcException, java.util.concurrent.TimeoutException {
         if (this.isClosed) {
-            throw new RpcException(0, "Connection is closed");
+            BotLogger.warning(logtag,"Connection to Telegram has been closed. RPC call cancelled");
+            return null;
         }
 
         T resultObject = null;
